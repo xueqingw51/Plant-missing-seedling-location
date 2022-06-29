@@ -1,0 +1,21 @@
+# COCO 2017 dataset http://cocodataset.org
+# Train command: python train.py --data coco.yaml
+# Default dataset location is next to YOLOv5:
+#   /parent
+#     /datasets/coco
+#     /yolov5
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: E:\pythonwork\program\yolov5\mydata  # dataset root dir
+#train: train.txt  # train images (relative to 'path') 118287 images
+#val: val.txt  # train images (relative to 'path') 5000 images
+train: E:\pythonwork\program\yolov5\mydata\train\images  # train images (relative to 'path') 
+val: E:\pythonwork\program\yolov5\mydata\valid\images  # train images (relative to 'path') 
+
+# Classes
+nc: 6  # number of classes
+names: [ 'sedge', 'filed bindweed', 'cirsium','chenopodium','cotton','bluegrass'  ]  # class names
+
+
+
